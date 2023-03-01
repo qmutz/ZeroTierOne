@@ -1,6 +1,6 @@
 # vim: ft=dockerfile
 
-FROM debian:bullseye
+FROM debian:11
 
 ARG VERSION
 
