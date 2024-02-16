@@ -1,5 +1,5 @@
 # Dockerfile for building ZeroTier Central Controllers
-FROM ubuntu:jammy as builder
+FROM ubuntu:22.04 as builder
 MAINTAINER Adam Ierymekno <adam.ierymenko@zerotier.com>, Grant Limberg <grant.limberg@zerotier.com>
 
 ARG git_branch=master
